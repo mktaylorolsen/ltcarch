@@ -1,0 +1,259 @@
+body{
+  font-family: 'Lato', sans-serif;
+  width: 99%;
+  background-color: #EFEFEF;
+}
+section{
+  margin: 0;
+  padding: 0;
+}
+h3{
+  color: black;
+  text-align: center;
+  width: 100%;
+  padding: auto;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+h4{
+  color: black;
+  text-align: center;
+  width: 100%;
+  padding: auto;
+  text-transform: uppercase;
+  font-size: 1.25em;
+}
+/*NAVBAR*/
+.navbar{
+  max-width:100%;
+  height: 80px;
+  display: flex;
+  background-color: white;
+}
+.menu{
+  list-style: none;
+  width: 100%;
+  text-align: right;
+  line-height: 300%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.navbar a{
+  text-decoration: none;
+  color: black;
+  margin-left: 10px;
+  display: inline-block;
+  margin-right: 10px;
+}
+.navbar a:hover{
+  color: #6cb245;
+}
+.logo{
+  width: 300px;
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+/*HOME*/
+.sliderContainer{
+  width: 100%;
+}
+.home{
+  width: 100%;
+  padding-bottom: 20px;
+}
+.homeSlide{
+  width:100%;
+  display: none;
+  -vendor-animation-delay: 2s;
+}
+
+/*ABOUT*/
+.aboutBlurb{
+  color: black;
+  font-size: 2em;
+  text-align: center;
+  width:75%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 25px;
+  padding-bottom: 35px;
+}
+
+/*PEOPLE*/
+.people{
+  width:100%;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+.photoContainer{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.imageContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container{
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.portrait {
+  font-size: 0px;
+  width: 100%;
+  height: 100%;
+}
+.portrait:hover {
+  opacity: 0.5;
+}
+.description{
+  display: none;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container:hover .description{
+  display: block;
+}
+
+/*SERVICES*/
+.services{
+  background-color: #A9A9A9;
+  padding-bottom: 25px;
+}
+.cardContainer{
+  display: flex;
+}
+.servicesTitle{
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  padding-top: 30px;
+  text-transform: uppercase;
+}
+.card{
+  border-color: lightgrey;
+  border-width: thin;
+  border-style: solid;
+  background-color: white;
+  width:33%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-bottom: 50px;
+}
+.cardPic{
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+.bottomCard{
+  width:95%;
+  background-color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1px;
+  padding-bottom: 10px;
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/*PROJECTS*/
+.projects{
+  width:100%;
+  background-color: white;
+  padding-top: 1px;
+  padding-bottom: 25px;
+}
+.projectHeader{
+  padding-top: 20px;
+  color: black;
+}
+.projectContainer{
+  width:90%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+.project{
+  width:20%;
+}
+.projectImg{
+  width: 100%;
+}
+
+/*FOOTER*/
+.footer{
+  background-color: #A9A9A9;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.contact{
+  padding-top: 0;
+  margin-top: 0;
+}
+.footerContainer{
+  width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer p{
+  display: block;
+  text-align: center;
+}
+.footer a{
+  text-decoration: none;
+  color: black;
+}
+.footer a:hover{
+  color: #6cb245;
+}
+.copyright{
+  text-align: center;
+}
+.madeByMk{
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+/*MOBILE NAV*/
+.mobileNav{
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  display: none;
+  width: 99%;
+  text-align: center;
+  font-size: 2.5em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+}
+.mobileNav a{
+  text-decoration: none;
+  color:white;
+  text-align: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
